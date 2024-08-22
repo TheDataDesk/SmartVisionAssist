@@ -29,53 +29,6 @@ In unknown environments, visually challenged individuals face heightened risks d
 
 - OpenCV for Image Processing: OpenCV is used extensively for processing images and video feeds, extracting contours, and translating model predictions into actionable data for path planning and obstacle avoidance.
 
-# Table of Contents
-Installation
-Usage
-Project Structure
-Floor Plan Segmentation
-Model Config
-Model Results
-Translating Prediction to OpenCV Pixel Data
-Path Planning - A* Algorithm
-Obstacle Placing, Obstacle Avoidance, and Re-Routing
-Edge Cases and Limitations
-Pre-trained Models and Weights
-Installation
-Prerequisites
-Python 3.8 or above
-pip
-Virtual environment (recommended)
-
-Clone the Repository
-
-git clone https://github.com/yourusername/vision-assistant-system.git
-cd vision-assistant-system
-
-Create and Activate Virtual Environment
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-Install Dependencies
-
-pip install -r requirements.txt
-Download Pre-trained YOLOv3 Weights
-Download the YOLOv3 weights from this [link](https://pjreddie.com/media/files/yolov3.weights) and place them in the /object_detection/weights/ directory.
-
-Usage
-Running the Vision Assistant System
-python main.py
-
-This will start the application, and you can follow the on-screen instructions to use the vision assistant system.
-
-Sample Data
-Sample floor plans and corresponding segmented labels can be found in the /data/ directory. You can use these for testing and validation purposes.
-
-
-Vision Assistant System for Visually Challenged Individuals
-Project Overview
-This project is a vision assistant system designed to aid visually challenged individuals in navigating unknown environments. The system utilizes a combination of floor plan segmentation, path planning, and obstacle detection algorithms to provide real-time guidance. The key components of the system are outlined below.
 
 # Table of Contents
 - [Installation](#installation)
@@ -97,13 +50,15 @@ Python 3.8 or above
 pip
 Virtual environment (recommended)
 
-Clone the Repository
+# Clone the Repository
 git clone https://github.com/yourusername/vision-assistant-system.git
 cd vision-assistant-system
-Create and Activate Virtual Environment
+
+# Create and Activate Virtual Environment
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install Dependencies
+
+# Install Dependencies
 - pip install -r requirements.txt
 
 Download Pre-trained YOLOv3 Weights
@@ -116,7 +71,7 @@ python main.py
 
 This will start the application, and you can follow the on-screen instructions to use the vision assistant system.
 
-Sample Data
+# Sample Data
 Sample floor plans and corresponding segmented labels can be found in the /data/ directory. You can use these for testing and validation purposes.
 
 # Project Structure
