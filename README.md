@@ -4,7 +4,7 @@ This smart vision assist is a groundbreaking solution designed to significantly 
 
 # How the System Empowers Visually Impaired Individuals:
 
-- Navigating through unknown environments poses significant risks for visually challenged individuals, who must rely on canes, guide dogs, or assistance from others. The Vision Assistant System addresses these challenges by:
+Navigating through unknown environments poses significant risks for visually challenged individuals, who must rely on canes, guide dogs, or assistance from others. The Vision Assistant System addresses these challenges by:
 
 - Real-Time Environment Understanding: The system processes and analyzes the layout of an environment using advanced floor plan segmentation techniques. It distinguishes between navigable areas and obstacles like walls and furniture, providing the user with a clear understanding of the space.
 
