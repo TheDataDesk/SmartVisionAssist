@@ -1,4 +1,4 @@
-# Project Overview: Smarter-Vision-Assist
+# Project Overview: Smart-Vision-Assist
 
 This smart vision assist is a groundbreaking solution designed to significantly enhance the independence and mobility of visually challenged individuals by helping them navigate unknown environments with greater ease and confidence. For people who are blind or visually impaired, navigating unfamiliar spaces can be a daunting task, filled with uncertainty and potential hazards. This system aims to mitigate these challenges by acting as an "artificial vision," providing real-time guidance and obstacle detection to assist users in safely reaching their destinations.
 
