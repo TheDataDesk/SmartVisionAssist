@@ -116,17 +116,14 @@ Output of Prediction:
 
 # Edge Cases and Limitations
 
-Optimal Motion Direction:
+- Optimal Motion Direction:
 
 The algorithm works best when the initial source is towards the left of the final destination.
 It also performs well when the initial source is towards the bottom of the final destination.
-Unaddressed Scenarios:
+
+- Unaddressed Scenarios:
 
 Certain edge cases and complex scenarios are not handled by the current implementation. Future updates will aim to improve these aspects.
-Pre-trained Models and Weights
-To use the obstacle detection feature, you need to download the YOLOv3 weights from here and place them in the /object_detection/weights/ directory.
-
-
 
 
 
