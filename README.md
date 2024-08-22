@@ -33,7 +33,6 @@ In unknown environments, visually challenged individuals face heightened risks d
 # Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#ProjectStructure)
 - [Floor Plan Segmentation](#FloorPlanSegmentation)
 - [Model Config](#ModelConfig)
 - [Model Results](#ModelResults)
@@ -73,27 +72,6 @@ This will start the application, and you can follow the on-screen instructions t
 
 # Sample Data
 Sample floor plans and corresponding segmented labels can be found in the /data/ directory. You can use these for testing and validation purposes.
-
-# Project Structure
-
-smartvisionassist/
-│
-├── data/                         # Sample floor plans and segmented labels
-│
-├── models/                       # Pre-trained models and configurations
-│   ├── unet_resnet18.pth         # U-Net model with ResNet-18 backbone
-│   └── object_detection/         # YOLOv3 for obstacle detection
-│       └── weights/
-│           └── yolov3.weights    # YOLOv3 pre-trained weights
-│
-├── src/                          # Source code
-│   ├── floor_plan_segmentation.py # Floor plan segmentation script
-│   ├── path_planning.py          # Path planning using A* algorithm
-│   ├── obstacle_avoidance.py     # Obstacle avoidance and re-routing
-│   └── main.py                   # Main application entry point
-│
-├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
 
 # Floor Plan Segmentation
 
