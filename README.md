@@ -50,8 +50,8 @@ pip
 Virtual environment (recommended)
 
 # Clone the Repository
-git clone https://github.com/yourusername/vision-assistant-system.git
-cd vision-assistant-system
+git clone https://github.com/TheDataDesk/SmartVisionAssist.git
+cd SmartVisionAssist
 
 # Create and Activate Virtual Environment
 python -m venv venv
